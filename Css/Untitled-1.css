@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.nav {
+
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: white;
+    letter-spacing: 3px;
+    height: 50px;
+    /* margin-bottom: 7px; */
+    box-shadow: 0px 5px 7px rgb(206, 206, 206);
+    justify-content: space-between;
+    z-index: 1;
+    position: fixed;
+}
+
+.nav .grey:hover {
+    background-color: rgb(202, 202, 202);
+
+
+}
+
+.nav div {
+
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.t1 {
+    min-width: 190px;
+    margin-right: 70%;
+    
+    
+}
+
+.last3 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.nav3 {
+    right: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.burger1 {
+    max-width: 100%;
+    height: auto;
+}
+
+.img2 {
+    opacity: 0.75;
+    max-width: 100%;
+    height: auto;
+}
+
+.p1 {
+    overflow: auto;
+    display: inline;
+}
+
+div h2 {
+    float: inline-end;
+    display: inline;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.sec2 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 100px;
+    justify-content: center;
+    box-shadow: 0 7px 6px rgb(238, 238, 238);
+    padding-bottom: 100px;
+}
+
+.sub2 {
+    max-width: 400px;
+    font-size: larger;
+    margin-left: 50px;
+
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+
+}
+
+.sec3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 7px 6px rgb(238, 238, 238);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sub3 {
+    max-width: 450px;
+    margin-left: 20px;
+    margin-right: 100px;
+
+}
+
+.menuheads {
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 22px;
+}
+
+.ingredients {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: rgb(129 129 129);
+}
+
+.sub4 {
+    /* justify-content: center; */
+    margin: auto;
+    max-width: 1120px;
+    padding-left: 20px;
+}
+
+.headline {
+    justify-content: left;
+    font-size: 33px;
+    letter-spacing: 5px;
+    padding-top: 120px;
+    padding-bottom: 28px;
+}
+
+.info {
+    padding: 30px 0;
+}
+
+.input {
+    width: 1120px;
+    border: none;
+    border-bottom: 1px solid #919191;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.input:active {
+    border: 1px solid black;
+}
+
+.button {
+    text-align: center;
+    background-color: #e7e7e7;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    background-color: #e7e7e7;
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    padding-left: 0;
+    /* width: 100%; */
+}
+.inside{
+    position: absolute;
+    bottom: 0;
+    min-width: 234px;
+    font-size: 40px;
+    letter-spacing: 4px;
+    opacity: 0.6;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    left: 150px;
+    justify-content: left;
+    
+}
